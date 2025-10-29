@@ -26,7 +26,7 @@ A **local memory layer** over Chrome history. The extension:
 ## ✨ Features
 
 - 🧠 **Natural Language Search** - Ask in plain English, not keywords
-- 🎤 **Voice Input** - Speak your queries using Web Speech API
+- 🎤 **Voice Input** - Speak your queries using PROMPT API Audio and fallback Web Speech API (not fully working because API unstable) 
 - 🔒 **Privacy First** - All AI processing happens on your device
 - 🚀 **Fast** - Results in under 2 seconds on typical databases
 - 🎨 **Modern UI** - Dark mode, responsive design
