@@ -1,0 +1,64 @@
+{
+  "../../../../../@crx/manifest": {
+    "file": "assets/crx-manifest.js-_Q9OgyGf.js",
+    "name": "crx-manifest.js",
+    "src": "../../../../../@crx/manifest",
+    "isEntry": true
+  },
+  "_styles-!~{004}~.js": {
+    "file": "assets/styles-ExN3li3I.css",
+    "src": "_styles-!~{004}~.js"
+  },
+  "_styles-mUuRymAq.js": {
+    "file": "assets/styles-mUuRymAq.js",
+    "name": "styles",
+    "css": [
+      "assets/styles-ExN3li3I.css"
+    ]
+  },
+  "_text-C_W9g4td.js": {
+    "file": "assets/text-C_W9g4td.js",
+    "name": "text"
+  },
+  "_time-Bu1cAEOJ.js": {
+    "file": "assets/time-Bu1cAEOJ.js",
+    "name": "time"
+  },
+  "src/background/index.ts": {
+    "file": "assets/index.ts-BX24UxJP.js",
+    "name": "index.ts",
+    "src": "src/background/index.ts",
+    "isEntry": true,
+    "imports": [
+      "_time-Bu1cAEOJ.js",
+      "_text-C_W9g4td.js"
+    ]
+  },
+  "src/content/content-script.ts": {
+    "file": "assets/content-script.ts-CJx0bmZn.js",
+    "name": "content-script.ts",
+    "src": "src/content/content-script.ts",
+    "isEntry": true
+  },
+  "src/ui/options.html": {
+    "file": "assets/options-BWuwnqzg.js",
+    "name": "options",
+    "src": "src/ui/options.html",
+    "isEntry": true,
+    "imports": [
+      "_styles-mUuRymAq.js",
+      "_time-Bu1cAEOJ.js"
+    ]
+  },
+  "src/ui/popup.html": {
+    "file": "assets/popup-Cm9r8F_n.js",
+    "name": "popup",
+    "src": "src/ui/popup.html",
+    "isEntry": true,
+    "imports": [
+      "_styles-mUuRymAq.js",
+      "_time-Bu1cAEOJ.js",
+      "_text-C_W9g4td.js"
+    ]
+  }
+}

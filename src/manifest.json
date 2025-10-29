@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Talk To Your History",
+  "version": "0.1.0",
+  "description": "Private, on-device recall of anything you viewed in Chrome.",
+  "permissions": ["history", "storage", "scripting", "alarms"],
+  "host_permissions": ["<all_urls>"],
+  "trial_tokens": [
+    "AlA4xMUnHQqWT1vWJNLzwTMMNoAVYsxMj/XM3cyFmGmADpHly/nIenWqKZVv0w+jUccDI3Tdxtff7p9M4G6twQAAAAB7eyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vaW5uZWFmZ25namZrZG1hcGxuYmJpZWlhamdmY2Vpb28iLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDB9",
+    "AsvWFHvA7iWUcgSS5U+x1x6P9QE+XUmqjS+R+KjXevn5sfMI/J7hEJMpy5fGOtMewWKJKMcLSHptHl33wuVFDgkAAABseyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vaW5uZWFmZ25namZrZG1hcGxuYmJpZWlhamdmY2Vpb28iLCJmZWF0dXJlIjoiQUlXcml0ZXJBUEkiLCJleHBpcnkiOjE3Njk0NzIwMDB9",
+    "Au3u8dpCz29TzD30FNQPUKG5nr7idXvYEaL0+x8UIxE+aB5diqYuPNK1/+wUWe0ouObhuP4ewF6tqRK7e1XltgwAAABueyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vaW5uZWFmZ25namZrZG1hcGxuYmJpZWlhamdmY2Vpb28iLCJmZWF0dXJlIjoiQUlSZXdyaXRlckFQSSIsImV4cGlyeSI6MTc2OTQ3MjAwMH0="
+  ],
+  "background": {
+    "service_worker": "src/background/index.ts",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "src/ui/popup.html",
+    "default_title": "Talk To Your History"
+  },
+  "options_page": "src/ui/options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/content-script.ts"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
+
