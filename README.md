@@ -254,6 +254,7 @@ npm run test:coverage # Generate coverage report
 ## 🗺️ Roadmap
 
 - [ ] Better readability extraction for dynamic content
+- [ ] Better Voice input
 - [ ] Keyword index for faster candidate lookup
 - [ ] Result clustering by topic
 - [ ] Export/import data functionality
@@ -291,10 +292,11 @@ This extension was built for the Chrome Built-in AI Challenge 2025.
 
 ## 📧 Contact
 
-- GitHub Issues: [Report bugs or request features](https://github.com/yourusername/talk-to-your-history/issues)
-- Email: your.email@example.com
+- GitHub Issues: [Report bugs or request features](https://github.com/myounes9/talk-to-your-history/issues)
+- Email: quantumautomations.ai@gmail.com
 
 ---
 
-Made with ❤️ and 🤖 Chrome Built-in AI
+Made with ❤️ and 🤖 Chrome Built-in AI 
+-Younes :)
 
