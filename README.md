@@ -284,9 +284,6 @@ This extension was built for the Chrome Built-in AI Challenge 2025.
 
 **APIs Used**:
 - ✅ Prompt API (Gemini Nano) - Query interpretation and ranking
-- ✅ Summarizer API - Page content summarization
-- ✅ Rewriter API - Memory card creation
-- ✅ Translator API - Language detection
 
 **Problem Solved**: Finding pages from memory using natural language instead of exact keywords, with complete privacy and on-device processing.
 
